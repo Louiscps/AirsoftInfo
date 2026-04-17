@@ -1,0 +1,56 @@
+body {
+   background-color: black !important;
+}
+	
+         .NavBar { 
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+ 	
+        nav { 
+            background-color: white;
+            padding: 11px;
+            text-align: center;
+        }
+ 	
+        nav a { 
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #000;
+            border-radius: 5px;
+        }
+ 
+        nav a:hover {
+            background-color: #777; 
+        }
+	
+	.my-box {
+ 		background-color: white; <!-- Colour for the box -->
+		font-size: 18px !important;
+ 		width: 300px;
+  		border: 15px black;
+ 		padding: 50px;
+		width: auto;          <!-- let content decide -->
+    		max-width: 2000px;     <!-- maximum limit -->
+  		margin: 20px;
+  		border-radius: 10px;       <!-- Rounds the corners of the box -->
+  		text-align: center;        <!-- Centers text horizontally -->
+  		display: flex;             <!-- Flexbox for vertical centering -->
+  		align-items: center;       <!-- Centers text vertically -->
+  		justify-content: center;   <!-- Centers text in the box -->
+ 		
+	}
+
+	.center-wrapper {
+   		display: flex;
+		font-size: 19px;
+    		justify-content: center;  
+   		margin-top: 40px;         <!-- space from top -->
+		align-items: center; 	  <!-- vertically aligns -->
+		flex-direction: column;   <!-- stacks boxes vertically -->
+	}
+
+
+
